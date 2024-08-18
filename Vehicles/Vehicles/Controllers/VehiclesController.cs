@@ -40,7 +40,7 @@ namespace Vehicles.Controllers
                     return Ok("Record already exists");
                 }
                 var vehicle = new Vehicle();
-                //vehicle.VehicleId = Request.VehicleId;
+                
                 vehicle.VehicleName = VehicleDetail.VehicleName;
                 vehicle.Model = VehicleDetail.Model;
                 vehicle.Manufacturer = VehicleDetail.Manufacturer;
